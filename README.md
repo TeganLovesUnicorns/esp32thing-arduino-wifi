@@ -1,0 +1,3 @@
+The purpose of this project is to demonstrate the ability of an ESP32 to recongise that the WiFi that it was connected to previously is no longer available and to then create an AP that a user can connect to to put in the new SSID and Password and store it to the onboard *"EEPROM" memory.
+
+(*NOTE: ESP32 chips dont use EEPROM, instead they use flash memory and there is a port of the Arduino EEPROM library for the ESP32)
